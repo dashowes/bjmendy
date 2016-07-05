@@ -1,0 +1,41 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*UNIVERSAL*/
+
+.page {
+    width: 100%;
+    height: auto;
+    padding: 20px 80px 20px 80px;
+}
+
+section {
+    overflow: auto;
+}
+
+textarea {
+    resize: vertical;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*TYPOGRAPHY*/
+h1 {
+    font-family: Shrikhand;
+    font-size: 5.05em;
+}
+
+h2 {
+    font-family: Shrikhand;
+    font-size: 3.15em;
+}
+
+h3 {
+    font-family: Questrial;
+}
