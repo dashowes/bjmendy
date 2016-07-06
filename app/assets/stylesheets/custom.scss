@@ -8,10 +8,19 @@ $ocean-boat-blue: #0079ba;
 
 /*UNIVERSAL*/
 
-.page {
+.page1, .page2 {
     width: 100%;
     height: auto;
-    padding: 20px 80px 20px 80px;
+    padding: 0 80px 20px 80px;
+}
+
+.page1 {
+    background-color: $dairy-cream;
+}
+
+.page2 {
+    padding-top: 45px;
+    padding-bottom: 25px;
 }
 
 section {
@@ -30,17 +39,62 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 /*TYPOGRAPHY*/
+
+h1, h2 {
+    color: $biscay;
+}
+
 h1 {
-    font-family: Shrikhand;
+    font-family: Shrikhand, serif;
     font-size: 5.05em;
 }
 
 h2 {
-    font-family: Shrikhand;
+    font-family: Shrikhand, serif;
     font-size: 3.15em;
+    text-align: center;
+}
+
+h3, h4, li, a, p {
+    font-family: Dosis, sans-serif;
 }
 
 h3 {
-    font-family: Questrial;
+    font-size: 1.85em;
+}
+
+h4 {
+    font-size: 1.35em;
+}
+
+li, a, p {
+    font-size: 1.15em;
+    color: $ocean-boat-blue;
+}
+
+/*FEATURES*/
+
+.header {
+    text-align: center;
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 95px;
+}
+
+.bj-main {
+    height: 315px;
+    margin: 23px 0 23px 0;
+}
+
+.headshot {
+    border: 7px solid $java;
+    border-radius: 50%;
+    z-index: 2;
+    opacity: .92;
 }
