@@ -5,6 +5,7 @@ $light-brown: #b36621;
 $dairy-cream: #ead2a6;
 $java: #1ebfb9;
 $ocean-boat-blue: #0079ba;
+$aquamarine: #7cffc4;
 
 /*UNIVERSAL*/
 
@@ -14,13 +15,10 @@ $ocean-boat-blue: #0079ba;
     padding: 0 80px 20px 80px;
 }
 
-.page1 {
-    background-color: $dairy-cream;
-}
-
 .page2 {
     padding-top: 45px;
-    padding-bottom: 25px;
+    padding-bottom: 45px;
+    background: $biscay;
 }
 
 section {
@@ -46,37 +44,43 @@ img {
 
 /*TYPOGRAPHY*/
 
-h1, h2 {
-    color: $biscay;
-}
-
 h1 {
-    font-family: Shrikhand, serif;
+    font-family: Lobster, serif;
     font-size: 5.05em;
-}
-
-h2 {
-    font-family: Shrikhand, serif;
-    font-size: 3.15em;
+    color: $biscay;
     text-align: center;
 }
 
-h3, h4, li, a, p {
+h2, h3, h4, li, a, p {
     font-family: Dosis, sans-serif;
+    color: white;
+}
+
+h2 {
+    font-size: 3.15em;
+    text-align: center;
+    &:hover {
+        color: $dairy-cream;
+        cursor: pointer;
+    }
 }
 
 h3 {
     font-size: 1.85em;
+    color: $dairy-cream;
 }
 
 h4 {
     font-size: 1.35em;
+    color: $java;
 }
 
 li, a, p {
+    font-family: Dosis, sans-serif;
     font-size: 1.15em;
-    color: $ocean-boat-blue;
+    color: white;
 }
+
 
 /*FEATURES*/
 
@@ -85,6 +89,9 @@ li, a, p {
     width: 100%;
     padding-top: 65px;
     padding-bottom: 95px;
+    p {
+        color: $ocean-boat-blue;
+    }
 }
 
 .bj-main {
@@ -97,4 +104,10 @@ li, a, p {
     border-radius: 50%;
     z-index: 2;
     opacity: .92;
+}
+
+.content4 {
+    p {
+        text-align: center;
+    }
 }
