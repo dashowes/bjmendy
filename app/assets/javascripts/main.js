@@ -20,6 +20,10 @@ var ready = function() {
 	$('#languages').click(function() {
 	    $('#languages-list').slideToggle('slow');
 	});
+	
+	$('#blog').click(function(event) {
+	    document.location = 'http://bjmendy.wordpress.com';
+	});
 };
 
 $(document).ready(ready);
