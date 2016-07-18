@@ -20,9 +20,15 @@ var ready = function() {
 	$('#languages').click(function() {
 	    $('#languages-list').slideToggle('slow');
 	});
+
+	$('#contact').click(function(event) {
+	    // document.location = 'http://bjmendy.wordpress.com';
+	    window.open('mailto:bjmendy@gmail.com/', '_blank')
+	});
 	
 	$('#blog').click(function(event) {
-	    document.location = 'http://bjmendy.wordpress.com';
+	    // document.location = 'http://bjmendy.wordpress.com';
+	    window.open('http://bjmendy.wordpress.com/', '_blank')
 	});
 };
 
